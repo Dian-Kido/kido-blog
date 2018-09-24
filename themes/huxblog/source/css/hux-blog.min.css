@@ -77,9 +77,9 @@ b, strong {
     font-weight: 400;
 }
 
-p {
-    margin: 30px 0;
-}
+/*p {*/
+/*margin: 30px 0;*/
+/*}*/
 
 h1,
 h2,
@@ -329,19 +329,19 @@ pre code {
        *     TypeIsBeautiful,
        *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
        */
-    font-family: "Raleway", Sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.7;
 }
 
 .navbar-custom .navbar-brand {
     font-weight: 400;
-    color: white;
+    color: black;
     height: 56px;
     line-height: 25px;
 }
 
 .navbar-custom .navbar-brand:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 1);
 }
 
 .navbar-custom .nav li a {

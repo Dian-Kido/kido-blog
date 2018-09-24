@@ -367,24 +367,26 @@ pre code {
     }
 
     .navbar-custom .navbar-brand {
-        color: white;
+        color: black;
         padding: 20px;
         line-height: 20px;
+        font-size: 37px;
+        font-weight: 500;
     }
 
     .navbar-custom .navbar-brand:hover,
     .navbar-custom .navbar-brand:focus {
-        color: rgba(255, 255, 255, 0.8);
+        color: rgba(0, 0, 0, 1);
     }
 
     .navbar-custom .nav li a {
-        color: white;
+        color: #9c8f8f;
         padding: 20px;
     }
 
     .navbar-custom .nav li a:hover,
     .navbar-custom .nav li a:focus {
-        color: rgba(255, 255, 255, 0.8);
+        color: rgba(171, 171, 157, 0.8);
     }
 
     .navbar-custom .nav li a:active {
@@ -1041,7 +1043,7 @@ body {
 .navbar-default .navbar-toggle .icon-bar {
     width: 18px;
     border-radius: 0px;
-    background-color: white;
+    background-color: #9c8f8f;
 }
 
 .navbar-default .navbar-toggle .icon-bar + .icon-bar {

@@ -1,5 +1,6 @@
 @media (min-width: 1200px) {
-    .post-container, .sidebar-container {
+    .post-container,
+    .sidebar-container {
         padding-right: 5%;
     }
 }
@@ -29,7 +30,8 @@
     color: #bfbfbf !important;
 }
 
-.sidebar-container a:hover, .sidebar-container a:active {
+.sidebar-container a:hover,
+.sidebar-container a:active {
     color: #0085a1 !important;
 }
 
@@ -37,7 +39,8 @@
     border-color: #bfbfbf;
 }
 
-.sidebar-container .tags a:hover, .sidebar-container .tags a:active {
+.sidebar-container .tags a:hover,
+.sidebar-container .tags a:active {
     border-color: #0085a1;
 }
 
@@ -58,6 +61,10 @@
 }
 
 body {
+    /* Hux learn from
+       *     TypeIsBeautiful,
+       *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
+       */
     font-family: "Raleway", Sans-serif;
     font-weight: 170;
     line-height: 1.7;
@@ -74,7 +81,16 @@ p {
     margin: 30px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* Hux learn from
+       *     TypeIsBeautiful,
+       *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
+       */
     font-family: "Raleway", Sans-serif;
     line-height: 1.7;
     line-height: 1.1;
@@ -89,11 +105,13 @@ a {
     color: #404040;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     color: #0085a1;
 }
 
-a img:hover, a img:focus {
+a img:hover,
+a img:focus {
     cursor: zoom-in;
 }
 
@@ -137,7 +155,8 @@ img.shadow {
     }
 }
 
-.table th, .table td {
+.table th,
+.table td {
     border: 1px solid #eee !important;
 }
 
@@ -148,7 +167,8 @@ hr.small {
     border-color: white;
 }
 
-pre, .table-responsive {
+pre,
+.table-responsive {
     -webkit-overflow-scrolling: touch;
 }
 
@@ -163,11 +183,17 @@ pre code {
     color: #337ab7;
 }
 
-.post-container a:hover, .post-container a:focus {
+.post-container a:hover,
+.post-container a:focus {
     color: #0085a1;
 }
 
-.post-container h1, .post-container h2, .post-container h3, .post-container h4, .post-container h5, .post-container h6 {
+.post-container h1,
+.post-container h2,
+.post-container h3,
+.post-container h4,
+.post-container h5,
+.post-container h6 {
     margin: 30px 0 10px;
 }
 
@@ -191,23 +217,29 @@ pre code {
     margin-top: 5px;
 }
 
-.post-container ul, .post-container ol {
+.post-container ul,
+.post-container ol {
     margin-bottom: 40px;
 }
 
 @media screen and (max-width: 768px) {
-    .post-container ul, .post-container ol {
+    .post-container ul,
+    .post-container ol {
         padding-left: 30px;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .post-container ul, .post-container ol {
+    .post-container ul,
+    .post-container ol {
         padding-left: 20px;
     }
 }
 
-.post-container ol ol, .post-container ol ul, .post-container ul ol, .post-container ul ul {
+.post-container ol ol,
+.post-container ol ul,
+.post-container ul ol,
+.post-container ul ul {
     margin-bottom: 5px;
 }
 
@@ -216,7 +248,12 @@ pre code {
     margin-bottom: 5px;
 }
 
-.post-container li h1, .post-container li h2, .post-container li h3, .post-container li h4, .post-container li h5, .post-container li h6 {
+.post-container li h1,
+.post-container li h2,
+.post-container li h3,
+.post-container li h4,
+.post-container li h5,
+.post-container li h6 {
     line-height: 2;
     margin-top: 20px;
 }
@@ -288,6 +325,10 @@ pre code {
     left: 0;
     width: 100%;
     z-index: 3;
+    /* Hux learn from
+       *     TypeIsBeautiful,
+       *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
+       */
     font-family: "Raleway", Sans-serif;
     line-height: 1.7;
 }
@@ -326,22 +367,26 @@ pre code {
     }
 
     .navbar-custom .navbar-brand {
-        color: white;
+        color: black;
         padding: 20px;
         line-height: 20px;
+        font-size: 37px;
+        font-weight: 500;
     }
 
-    .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus {
-        color: rgba(255, 255, 255, 0.8);
+    .navbar-custom .navbar-brand:hover,
+    .navbar-custom .navbar-brand:focus {
+        color: rgba(0, 0, 0, 1);
     }
 
     .navbar-custom .nav li a {
-        color: white;
+        color: #9c8f8f;
         padding: 20px;
     }
 
-    .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
-        color: rgba(255, 255, 255, 0.8);
+    .navbar-custom .nav li a:hover,
+    .navbar-custom .nav li a:focus {
+        color: rgba(171, 171, 157, 0.8);
     }
 
     .navbar-custom .nav li a:active {
@@ -354,6 +399,7 @@ pre code {
         -webkit-transition: background-color 0.3s;
         -moz-transition: background-color 0.3s;
         transition: background-color 0.3s;
+        /* Force Hardware Acceleration in WebKit */
         -webkit-transform: translate3d(0, 0, 0);
         -moz-transform: translate3d(0, 0, 0);
         -ms-transform: translate3d(0, 0, 0);
@@ -364,6 +410,7 @@ pre code {
     }
 
     .navbar-custom.is-fixed {
+        /* when the user scrolls down, we hide the header right above the viewport */
         position: fixed;
         top: -61px;
         background-color: rgba(255, 255, 255, 0.9);
@@ -377,7 +424,8 @@ pre code {
         color: #404040;
     }
 
-    .navbar-custom.is-fixed .navbar-brand:hover, .navbar-custom.is-fixed .navbar-brand:focus {
+    .navbar-custom.is-fixed .navbar-brand:hover,
+    .navbar-custom.is-fixed .navbar-brand:focus {
         color: #0085a1;
     }
 
@@ -385,11 +433,13 @@ pre code {
         color: #404040;
     }
 
-    .navbar-custom.is-fixed .nav li a:hover, .navbar-custom.is-fixed .nav li a:focus {
+    .navbar-custom.is-fixed .nav li a:hover,
+    .navbar-custom.is-fixed .nav li a:focus {
         color: #0085a1;
     }
 
     .navbar-custom.is-visible {
+        /* if the user changes the scrolling direction, we show the header */
         -webkit-transform: translate3d(0, 100%, 0);
         -moz-transform: translate3d(0, 100%, 0);
         -ms-transform: translate3d(0, 100%, 0);
@@ -407,21 +457,27 @@ pre code {
     background-size: cover;
     -o-background-size: cover;
     margin-bottom: 0px;
+    /* 0 on mobile, modify by Hux */
 }
 
 @media only screen and (min-width: 768px) {
     .intro-header {
         margin-bottom: 20px;
+        /* response on desktop */
     }
 }
 
-.intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
+.intro-header .site-heading,
+.intro-header .post-heading,
+.intro-header .page-heading {
     padding: 85px 0 55px;
     color: white;
 }
 
 @media only screen and (min-width: 768px) {
-    .intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
+    .intro-header .site-heading,
+    .intro-header .post-heading,
+    .intro-header .page-heading {
         padding: 150px 0;
     }
 }
@@ -436,16 +492,23 @@ pre code {
     }
 }
 
-.intro-header .site-heading, .intro-header .page-heading {
+.intro-header .site-heading,
+.intro-header .page-heading {
     text-align: center;
 }
 
-.intro-header .site-heading h1, .intro-header .page-heading h1 {
+.intro-header .site-heading h1,
+.intro-header .page-heading h1 {
     margin-top: 0;
     font-size: 50px;
 }
 
-.intro-header .site-heading .subheading, .intro-header .page-heading .subheading {
+.intro-header .site-heading .subheading,
+.intro-header .page-heading .subheading {
+    /* Hux learn from
+       *     TypeIsBeautiful,
+       *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
+       */
     font-family: "Raleway", Sans-serif;
     line-height: 1.7;
     font-size: 18px;
@@ -456,7 +519,8 @@ pre code {
 }
 
 @media only screen and (min-width: 768px) {
-    .intro-header .site-heading h1, .intro-header .page-heading h1 {
+    .intro-header .site-heading h1,
+    .intro-header .page-heading h1 {
         font-size: 80px;
     }
 }
@@ -466,12 +530,17 @@ pre code {
     margin-bottom: 24px;
 }
 
-.intro-header .post-heading .subheading, .intro-header .post-heading .meta {
+.intro-header .post-heading .subheading,
+.intro-header .post-heading .meta {
     line-height: 1.1;
     display: block;
 }
 
 .intro-header .post-heading .subheading {
+    /* Hux learn from
+       *     TypeIsBeautiful,
+       *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
+       */
     font-family: "Raleway", Sans-serif;
     line-height: 1.7;
     font-size: 17px;
@@ -510,7 +579,8 @@ pre code {
     color: #404040;
 }
 
-.post-preview > a:hover, .post-preview > a:focus {
+.post-preview > a:hover,
+.post-preview > a:focus {
     text-decoration: none;
     color: #0085a1;
 }
@@ -543,7 +613,8 @@ pre code {
     color: #404040;
 }
 
-.post-preview > .post-meta > a:hover, .post-preview > .post-meta > a:focus {
+.post-preview > .post-meta > a:hover,
+.post-preview > .post-meta > a:focus {
     color: #0085a1;
     text-decoration: underline;
 }
@@ -619,7 +690,8 @@ footer .copyright a {
     color: #337ab7;
 }
 
-footer .copyright a:hover, footer .copyright a:focus {
+footer .copyright a:hover,
+footer .copyright a:focus {
     color: #0085a1;
 }
 
@@ -631,7 +703,8 @@ footer .copyright a:hover, footer .copyright a:focus {
     border-bottom: 1px solid #eeeeee;
 }
 
-.floating-label-form-group input, .floating-label-form-group textarea {
+.floating-label-form-group input,
+.floating-label-form-group textarea {
     z-index: 1;
     position: relative;
     padding-right: 0;
@@ -680,6 +753,10 @@ form .row:first-child .floating-label-form-group {
 }
 
 .btn {
+    /* Hux learn from
+       *     TypeIsBeautiful,
+       *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
+       */
     font-family: "Raleway", Sans-serif;
     line-height: 1.7;
     text-transform: uppercase;
@@ -695,7 +772,8 @@ form .row:first-child .floating-label-form-group {
     padding: 25px 35px;
 }
 
-.btn-default:hover, .btn-default:focus {
+.btn-default:hover,
+.btn-default:focus {
     background-color: #0085a1;
     border: 1px solid #0085a1;
     color: white;
@@ -706,7 +784,12 @@ form .row:first-child .floating-label-form-group {
     padding: 0px !important;
 }
 
-.pager li > a, .pager li > span {
+.pager li > a,
+.pager li > span {
+    /* Hux learn from
+       *     TypeIsBeautiful,
+       *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
+       */
     font-family: "Raleway", Sans-serif;
     line-height: 1.7;
     text-transform: uppercase;
@@ -719,7 +802,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 @media only screen and (min-width: 768px) {
-    .pager li > a, .pager li > span {
+    .pager li > a,
+    .pager li > span {
         font-size: 14px;
         padding: 15px 25px;
     }
@@ -729,13 +813,17 @@ form .row:first-child .floating-label-form-group {
     color: #404040;
 }
 
-.pager li > a:hover, .pager li > a:focus {
+.pager li > a:hover,
+.pager li > a:focus {
     color: white;
     background-color: #0085a1;
     border: 1px solid #0085a1;
 }
 
-.pager .disabled > a, .pager .disabled > a:hover, .pager .disabled > a:focus, .pager .disabled > span {
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
     color: #808080;
     background-color: #404040;
     cursor: not-allowed;
@@ -767,11 +855,13 @@ body {
     webkit-tap-highlight-color: #0085a1;
 }
 
+/* Hux add tags support */
 .tags {
     margin-bottom: -5px;
 }
 
-.tags a, .tags .tag {
+.tags a,
+.tags .tag {
     display: inline-block;
     border: 1px solid rgba(255, 255, 255, 0.8);
     border-radius: 999em;
@@ -784,7 +874,10 @@ body {
     margin-bottom: 6px;
 }
 
-.tags a:hover, .tags .tag:hover, .tags a:active, .tags .tag:active {
+.tags a:hover,
+.tags .tag:hover,
+.tags a:active,
+.tags .tag:active {
     color: white;
     border-color: white;
     background-color: rgba(255, 255, 255, 0.4);
@@ -792,7 +885,8 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-    .tags a, .tags .tag {
+    .tags a,
+    .tags .tag {
         margin-right: 5px;
     }
 }
@@ -811,7 +905,8 @@ body {
     margin: 20px 0 15px 0;
 }
 
-#tag_cloud a, #tag_cloud .tag {
+#tag_cloud a,
+#tag_cloud .tag {
     font-size: 14px;
     border: none;
     line-height: 28px;
@@ -820,7 +915,10 @@ body {
     background: #D6D6D6;
 }
 
-#tag_cloud a:hover, #tag_cloud .tag:hover, #tag_cloud a:active, #tag_cloud .tag:active {
+#tag_cloud a:hover,
+#tag_cloud .tag:hover,
+#tag_cloud a:active,
+#tag_cloud .tag:active {
     background-color: #0085a1 !important;
 }
 
@@ -862,6 +960,10 @@ body {
 
 .one-tag-list .tag-text {
     font-weight: 200;
+    /* Hux learn from
+       *     TypeIsBeautiful,
+       *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
+       */
     font-family: "Raleway", Sans-serif;
     line-height: 1.7;
 }
@@ -909,6 +1011,8 @@ body {
     }
 }
 
+/* Tags support End*/
+/* Hux make all img responsible in post-container */
 .post-container img {
     display: block;
     max-width: 100%;
@@ -916,7 +1020,9 @@ body {
     margin: 1.5em auto 1.6em auto;
 }
 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+/* Hux Optimize UserExperience */
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
     background-color: inherit;
 }
 
@@ -924,6 +1030,7 @@ body {
     background-color: rgba(255, 255, 255, 0.25);
 }
 
+/* Hux customize Style for navBar button */
 .navbar-default .navbar-toggle {
     border-color: transparent;
     padding: 19px 16px;
@@ -936,13 +1043,14 @@ body {
 .navbar-default .navbar-toggle .icon-bar {
     width: 18px;
     border-radius: 0px;
-    background-color: white;
+    background-color: #9c8f8f;
 }
 
 .navbar-default .navbar-toggle .icon-bar + .icon-bar {
     margin-top: 3px;
 }
 
+/* Hux customize Style for Duoshuo */
 .comment {
     margin-top: 20px;
 }

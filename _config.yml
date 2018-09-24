@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Kido's Blog
+title: KIDO
 subtitle: Do not fear the unknown.
 author: Kido
 language:
@@ -20,7 +20,7 @@ permalink_defaults:
 
 # Site settings
 SEOTitle: Kido的博客 | Kido's Blog
-header-img: img/home-bg.jpg
+header-img: img/home-bg-o.jpg
 email: woshidianshu@gmail.com
 description: ""
 keyword: ""

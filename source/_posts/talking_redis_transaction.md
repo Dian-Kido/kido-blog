@@ -10,7 +10,7 @@ tags:
     
 ---
 
-**Redis的事务和传统关系数据库的事务并不相同**
+### Redis的事务和传统关系数据库的事务并不相同
 
 #### 传统数据库事务过程
 在关系型数据库中，我们开启事务并进行一系列的读写操作，最后，用户用户可以选择发送commit来确认之前的修改，或者发送rollback来放弃之前的修改。
@@ -183,4 +183,6 @@ WATCH 用于事务开启之前对任意数量的Key进行监视，如果这个�
 
 ### 参考文献
 1.[《Redis设计与实现》黄健宏 著](http://redisbook.com/index.html)
-2.[《Redis 实战》Josiah L. Carlson](https://book.douban.com/subject/26612779/)
+2.[redis官网](http://www.redis.cn/documentation.html)
+3.[Spring Data Redis](https://spring.io/projects/spring-data-redis#overview)
+4.[《Redis 实战》Josiah L. Carlson](https://book.douban.com/subject/26612779/)

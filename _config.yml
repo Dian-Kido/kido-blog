@@ -3,7 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: KIDO
+mainlogo: KIDO
+title: KIDO BLOG
 subtitle: Do not fear the unknown.
 author: Kido
 language:
@@ -11,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.kido.pw
+url: https://blog.kido.site
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -20,7 +21,7 @@ permalink_defaults:
 
 # Site settings
 SEOTitle: Kido的博客 | Kido's Blog
-header-img: img/home-bg-o.jpg
+header-img: img/home-bg-02.jpg
 email: woshidianshu@gmail.com
 description: ""
 keyword: ""
@@ -28,7 +29,7 @@ keyword: ""
 
 # SNS settings
 # RSS: false
-weibo_username:     泡面大厨
+weibo_username:     1882973501
 zhihu_username:     dian-Kido
 github_username:    Dian-Kido
 twitter_username:
@@ -59,34 +60,19 @@ ga_domain:
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "泡面大厨"
-sidebar-avatar: img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/blog-avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 0             # A tag will be featured if the size of it is more than this condition value
 
 
 # Friends
 friends: [
     {
-        title: "Kaijun's Blog",
-        href: "http://blog.kaijun.rocks"
-    },{
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
-    },{
-        title: "Foo",
-        href: "#"
-    },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
+        title: "TianShouzhi's Blog",
+        href: "http://www.tianshouzhi.com/"
     }
 ]
 

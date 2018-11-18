@@ -183,6 +183,6 @@ WATCH 用于事务开启之前对任意数量的Key进行监视，如果这个�
 
 ### 参考文献
 1.[《Redis设计与实现》黄健宏 著](http://redisbook.com/index.html)
-2.[redis官网](http://www.redis.cn/documentation.html)
-3.[Spring Data Redis](https://spring.io/projects/spring-data-redis#overview)
+2.[ redis官网](http://www.redis.cn/documentation.html)
+3.[ Spring Data Redis](https://spring.io/projects/spring-data-redis#overview)
 4.[《Redis 实战》Josiah L. Carlson](https://book.douban.com/subject/26612779/)

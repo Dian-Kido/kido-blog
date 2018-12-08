@@ -100,3 +100,8 @@ tags:
 如果对你有帮助，那就再好不过了~
 
 
+### 参考文献
+1.[ canal ](https://github.com/alibaba/canal)
+2.[ databus ](https://github.com/linkedin/databus)
+
+

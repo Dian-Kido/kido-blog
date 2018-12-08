@@ -94,7 +94,7 @@ tags:
 
 ## 方案总结
 **适合使用的场景：业务简单，读写QPS比较低的情况**。
-今天这个方案呢，优缺点都比较明显，binlog用来刷新缓存是一个很棒的选择，它天然的顺序性用来做同步操作很具有优势；其实**它的并发问题来自于canal 或 databus，由于不同行、表、库的binlog的消费并不是时间串行的**，那怎么解决这个问题呢，篇幅有限，我们后续文章再继续分享
+今天这个方案呢，优缺点都比较明显，binlog用来刷新缓存是一个很棒的选择，它天然的顺序性用来做同步操作很具有优势；其实**它的并发问题来自于Canal 或 Databus。拿Databus来说，由于不同行、表、库的binlog的消费并不是时间串行的**，那怎么解决这个问题呢，篇幅有限，我们后续文章再继续分享
 
 ### 后记
 如果对你有帮助，那就再好不过了~
@@ -103,5 +103,6 @@ tags:
 ### 参考文献
 1.[ canal ](https://github.com/alibaba/canal)
 2.[ databus ](https://github.com/linkedin/databus)
+3.[Databus & canal 对比](https://www.cnblogs.com/xunshao/p/9762377.html)
 
 

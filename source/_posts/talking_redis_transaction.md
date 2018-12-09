@@ -7,7 +7,6 @@ header-img: "talking_redis_transaction-bg.png"
 tags:
     - Redis
     - 缓存
-    - 后端
     
 ---
 

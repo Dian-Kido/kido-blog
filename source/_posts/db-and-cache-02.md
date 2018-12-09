@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "缓存与数据库一致性系列-02"
-date:       2018-12-08
+date:       2018-12-07
 author:     "Kido"
 header-img: "db-and-cache-02-bg01.jpg"
 tags:

@@ -71,6 +71,10 @@ featured-condition-size: 0             # A tag will be featured if the size of i
 # Friends
 friends: [
     {
+            title: "陶笛日记",
+            href: "https://ocarina-diary.com/blogs/"
+    },
+    {
         title: "TianShouzhi",
         href: "http://www.tianshouzhi.com/"
     },

@@ -25,7 +25,7 @@ tags:
 ### 写流程：
 第一步先删除缓存，删除之后再更新DB，我们监听从库(资源少的话主库也ok)的binlog，通过分析binlog我们解析出需要需要刷新的数据标识，然后将数据标识写入MQ，接下来就消费MQ，解析MQ消息来读库获取相应的数据刷新缓存。
 
-> 关于MQ串行化，大大家可以去了解一下[ Kafka partition 机制 ](http://kafka.apache.org/documentation/#intro_topics)，这里就不详术了
+> 关于MQ串行化，大家可以去了解一下[ Kafka partition 机制 ](http://kafka.apache.org/documentation/#intro_topics)，这里就不详述了
 
 
 ### 读流程：
@@ -42,7 +42,7 @@ tags:
 
  - **写1.1 DEL缓存失败**：没关系，后面会覆盖
  - **写1.4 写MQ失败**：没关系，Databus或Canal都会重试
- - **消费MQ处罚的：1.5 || 1.6 失败**：没关系，重新消费即可
+ - **消费MQ的：1.5 || 1.6 失败**：没关系，重新消费即可
 
 ###### 读流程容灾分析
 

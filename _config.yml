@@ -51,9 +51,9 @@ duoshuo_share:                     # set to false if you want to use Comment wit
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id:
+ba_track_id: 14296f5fec38bbac68ddad04e4cf4b72
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_track_id:            # Format: UA-xxxxxx-xx
 ga_domain:
 
 

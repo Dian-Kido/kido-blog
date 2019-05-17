@@ -6,7 +6,6 @@ author:     "Kido"
 header-img: "db-and-cache-bg01.jpg"
 tags:
     - 缓存
-    - 数据库
     
 ---
 

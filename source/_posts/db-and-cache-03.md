@@ -6,7 +6,6 @@ author:     "Kido"
 header-img: "db-and-cache-03-bg01.jpg"
 tags:
     - 缓存
-    - 数据库
     
 ---
 经过前两篇的讨论，我们离实现**“最终一致性”**只差一步了

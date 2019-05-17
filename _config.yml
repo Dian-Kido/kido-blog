@@ -41,7 +41,8 @@ anchorjs: true                          # if you want to customize anchor. check
 
 
 # Disqus settings
-disqus_username:
+disqus_username: disqus_FavHhu4Kfn
+disqus_sitename: blog-kido-site
 
 # Duoshuo settings
 # duoshuo_username: kaijun
@@ -70,18 +71,18 @@ featured-condition-size: 0             # A tag will be featured if the size of i
 
 # Friends
 friends: [
-    {
-            title: "陶笛日记",
-            href: "https://ocarina-diary.com/blogs/"
-    },
-    {
-        title: "TianShouzhi",
-        href: "http://www.tianshouzhi.com/"
-    },
-    {
-            title: "Breeze924",
-            href: "https://breeze924.github.io/"
-    }
+{
+  title: "陶笛日记",
+  href: "https://ocarina-diary.com/blogs/"
+},
+{
+  title: "TianShouzhi",
+  href: "http://www.tianshouzhi.com/"
+},
+{
+  title: "Breeze924",
+  href: "https://breeze924.github.io/"
+}
 ]
 
 
